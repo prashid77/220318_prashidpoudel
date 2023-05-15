@@ -1,0 +1,57 @@
+<style>
+     div .red {
+        color: blue !important;
+     }
+     div .red {
+        color: red;
+     }
+</style>
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  p {
+    margin: 0 0 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  
+  li {
+    margin: 0 0 5px 0;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+

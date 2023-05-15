@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<style type="text/css">
+		.container {
+			background: red;
+		}
+	</style>
+	<script type="text/javascript">
+		function myFunc() {
+			document.getElementById("demo").classList.add("container");
+		}
+
+		function myFunc2() {
+			document.getElementById("demo").classList.remove("container");
+		}
+	</script>
+</head>
+<body>
+	<div id="demo">Here is the text</div>
+	<button onclick="myFunc()">Click to add class</button>
+	<button onclick="myFunc2()">Click to remove class</button>
+</body>
+</html>
+
